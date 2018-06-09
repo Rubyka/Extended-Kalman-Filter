@@ -1,0 +1,4 @@
+/home/ruby/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ruby/opensource/Udacity/CarND-Extended-Kalman-Filter-Project
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ruby/opensource/Udacity/CarND-Extended-Kalman-Filter-Project/cmake-build-debug

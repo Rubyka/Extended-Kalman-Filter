@@ -27,7 +27,17 @@ public:
   /**
   * A helper method to calculate Jacobians.
   */
-  MatrixXd CalculateJacobian(const VectorXd& x_state);
+  MatrixXd CalculateJacobian(const VectorXd &x_state);
+
+  /**
+   * A helper to change coordinates
+   */
+  VectorXd CalculateCoordinates(const VectorXd &x_state);
+
+  /**
+   * Normalizing Phi to be between -pi and pi
+   */
+  void NormalizePhi(VectorXd &y);
 
 };
 
